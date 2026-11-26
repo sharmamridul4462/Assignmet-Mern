@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Internal CSS</title>
+    <title>CSS Selectors</title>
 
     <style>
-        h1 {
-            color: blue;
-            text-align: center;
+        * {
+            font-family: Arial;
         }
 
-        p {
-            color: green;
-            font-size: 20px;
+        h1 {
+            color: blue;
+        }
+
+        .card {
+            background-color: lightyellow;
+            padding: 20px;
+        }
+
+        #hero {
+            color: red;
+            text-align: center;
         }
     </style>
 
 </head>
 <body>
 
-    <h1>My First CSS Page</h1>
+    <h1>Element Selector</h1>
 
-    <p>Welcome to my website.</p>
+    <div class="card">
+        This is Class Selector.
+    </div>
+
+    <h2 id="hero">This is ID Selector</h2>
 
 </body>
 </html>
