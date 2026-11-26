@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>All Input Types</title>
+    <title>Events Table</title>
 </head>
 <body>
 
-<h2>Student Registration</h2>
+<h2>College Events</h2>
 
-<form>
-    Date:
-    <input type="date">
-    <br><br>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+    </thead>
 
-    Phone:
-    <input type="tel">
-    <br><br>
+    <tbody>
+        <tr>
+            <td>Sports Day</td>
+            <td>10 December</td>
+            <td>Ground</td>
+        </tr>
 
-    Gender:
-    <input type="radio" name="gender"> Male
-    <input type="radio" name="gender"> Female
-    <br><br>
+        <tr>
+            <td>Tech Fest</td>
+            <td>15 December</td>
+            <td>Auditorium</td>
+        </tr>
 
-    Hobbies:
-    <input type="checkbox"> Reading
-    <input type="checkbox"> Sports
-    <br><br>
+        <tr>
+            <td>Cultural Fest</td>
+            <td>20 December</td>
+            <td>College Hall</td>
+        </tr>
+    </tbody>
 
-    Course:
-    <select>
-        <option>BTech CSE</option>
-        <option>BCA</option>
-        <option>MCA</option>
-    </select>
-    <br><br>
-
-    Message:
-    <textarea rows="4" cols="30"></textarea>
-    <br><br>
-
-    <button type="submit">Submit</button>
-</form>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Events: 3</td>
+        </tr>
+    </tfoot>
+</table>
 
 </body>
 </html>
