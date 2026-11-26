@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid with Flexbox</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .icon {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Grid with Flexbox</h1>
+
+    <div class="container">
+
+        <div class="box">
+            <span class="icon">💻</span>
+            <p>Computer</p>
+        </div>
+
+        <div class="box">
+            <span class="icon">📱</span>
+            <p>Mobile</p>
+        </div>
+
+        <div class="box">
+            <span class="icon">📚</span>
+            <p>Books</p>
+        </div>
+
+        <div class="box">
+            <span class="icon">🎓</span>
+            <p>Education</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
