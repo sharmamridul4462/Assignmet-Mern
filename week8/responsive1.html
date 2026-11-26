@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile First Layout</title>
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        .container {
+            padding: 15px;
+            background-color: lightblue;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        /* Tablet */
+        @media (min-width: 768px) {
+            .container {
+                padding: 30px;
+                background-color: lightgreen;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1024px) {
+            .container {
+                padding: 50px;
+                background-color: lightyellow;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Responsive Website</h1>
+        <p>This is a mobile first layout.</p>
+    </div>
+
+</body>
+</html>
